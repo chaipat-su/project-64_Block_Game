@@ -7,7 +7,7 @@ public class mainac : MonoBehaviour
 {
     public void start_game()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(12);
     }
 
     public void back_mainMenu()
@@ -17,32 +17,27 @@ public class mainac : MonoBehaviour
 
     public void option()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
     }
 
-    public void leave()
+    public void setvoid()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 
     public void tutorial()
     {
-        SceneManager.LoadScene(5);
+        SceneManager.LoadScene(3);
     }
 
-    public void online()
+    public void credit()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(9);
     }
 
     public void backop()
     {
         SceneManager.LoadScene(2);
-    }
-
-    public void tplay()
-    {
-        SceneManager.LoadScene(4);
     }
 
     public void quit_game()

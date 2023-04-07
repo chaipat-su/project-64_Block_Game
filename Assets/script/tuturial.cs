@@ -15,7 +15,7 @@ public class tuturial : MonoBehaviour
     
     public void exitT()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
     }
 
 
